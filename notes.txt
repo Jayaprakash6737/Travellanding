@@ -1,0 +1,24 @@
+Step 1:
+Fonts
+=>Poppins
+=>Peralta
+
+step 2:
+Color
+Blue color #4B40C5
+orange   #EC682C
+
+step3 :
+Icons and Images export
+
+step 4:
+exporting fonts to html documents
+
+Step 5:
+html
+
+Step6:
+css
+
+step7:
+Crosscheck desing

@@ -1,0 +1,255 @@
+/* predefined css colors */
+:root{
+    --blue-color: #4B40C5;
+    --orange: #EC682C;
+}
+
+*,
+*::after,
+*::before{
+        box-sizing: border-box ;
+
+
+}
+body{
+    
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+    
+
+}
+.bg{
+    background-image: url(Images/unsplash_ELf8M_YWRTY.png);
+
+}
+.Travel{
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
+.Log{
+display: inline-block;
+
+padding: 8px 20px;
+border-radius: 10px;
+
+text-decoration: none;
+font-size: 22.612px; 
+font-weight: bold;
+color: #fff ;
+
+}
+.Sign{
+    display: inline-block;
+
+padding: 8px 20px;
+border-radius: 10px;
+
+text-decoration: none;
+font-size: 22.612px; 
+font-weight: bold;
+color: #fff ; 
+
+}
+
+.Log.Button{
+    background-color: var(--orange);
+}
+.Sign.Button{
+    background-color: var(--orange);
+}
+
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 1134px;
+    top:0;
+    padding: 36px 0;
+    z-index: 100;
+
+}
+
+.bon{
+    font-family: 'Peralta', serif;
+    display: flex;
+width: 314px;
+height: 45px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+color: #000;
+font-family: Peralta;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+ul{
+    display:flex;
+    align-items: center;
+    gap: 60px;
+    list-style: none;
+    
+}
+
+.heading{
+    height: 100vh;
+    width: 100%;
+   display: flex;
+    align-items: center;
+    justify-content:  space-between;
+    color: #fff;
+    padding-top: 60px;
+
+
+
+}
+
+.heading.left{
+    font-family: "Raleway",sans-serif;
+    font-weight: 900;
+    line-height: 125%;
+    margin-bottom: 0;
+
+}
+
+h1{
+    width: 1108px;
+height: 89px;
+flex-shrink: 0;
+color: #4B40C5;
+font-family: Poppins;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 118.381px; 
+letter-spacing: -1.92px;
+}
+
+h2{
+    width: 757px;
+height: 47px;
+flex-shrink: 0;
+color: #FFF;
+font-family: Poppins;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+}
+
+.Find{
+    width: 228.01px;
+    height: 75.882px;
+    flex-shrink: 0;
+    border-radius: 13.301px;
+background: #4B40C5;
+box-shadow: 0px 26.60243034362793px 46.55425262451172px 0px rgba(241, 165, 1, 0.15);
+display: flex;
+width: 195px;
+height: 29px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+color: #FFF1DA;
+text-align: center;
+font-family: Poppins;
+font-size: 23.942px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-decoration: none;
+}
+
+h3
+{
+  
+height: 81px;
+flex-shrink: 0;
+    color: #4B40C5;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+h4{
+    
+    width: 898px;
+height: 81px;
+flex-shrink: 0;
+color: var(--3rd, #14183E);
+text-align: center;
+font-family: Poppins;
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: capitalize;
+}
+Category ul li .Gro a{
+    display: flex;
+width: 253px;
+height: 34px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+color: #000;
+text-align: center;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+}
+
+.Category ul .Rectangle li a{
+    width: 177px;
+height: 34px;
+flex-shrink: 0;
+color: #000;
+text-align: center;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+
+/* ul,li,a,nav{
+    font-weight: bold;
+    font-size: 16px;
+    color:#fff;
+    text-decoration: none;
+ */
+
+/* } */
+/* .bg::after{
+    content: url(Images/unsplash_ELf8M_YWRTY.png);
+    position:absolute;
+    
+} */
+
+
+/* .Log{
+    display: flex;
+width: 107px;
+height: 40px;
+padding: 8px 20px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+flex-shrink: 0;
+border-radius: 8px;
+border: 1px solid #EC682C;
+background: #EC682C;
+} */
